@@ -1,6 +1,6 @@
 ## sshkeys
 
-[![Travis CI](https://secure.travis-ci.org/debops/ansible-sshkeys.png)](http://travis-ci.org/debops/ansible-sshkeys) [![test-suite](http://img.shields.io/badge/test--suite-ansible--sshkeys-blue.svg)](https://github.com/debops/test-suite/tree/master/ansible-sshkeys/) [![Ansible Galaxy](http://img.shields.io/badge/galaxy-debops.sshkeys-660198.svg)](https://galaxy.ansible.com/list#/roles/1603)[![Platforms](http://img.shields.io/badge/platforms-debian%20|%20ubuntu-lightgrey.svg)](#)
+[![Travis CI](https://secure.travis-ci.org/debops/ansible-sshkeys.png)](http://travis-ci.org/debops/ansible-sshkeys) [![test-suite](http://img.shields.io/badge/test--suite-ansible--sshkeys-blue.svg)](https://github.com/debops/test-suite/tree/master/ansible-sshkeys/) [![Ansible Galaxy](http://img.shields.io/badge/galaxy-debops.sshkeys-660198.svg)](https://galaxy.ansible.com/list#/roles/1603) [![Platforms](http://img.shields.io/badge/platforms-debian%20|%20ubuntu-lightgrey.svg)](#)
 
 `debops.sshkeys` role can be used to manage users SSH keys in
 `/etc/ssh/authorized_keys/` directory. This role is required for SFTPonly
