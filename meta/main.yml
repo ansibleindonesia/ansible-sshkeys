@@ -40,8 +40,8 @@ ansigenome_info:
       github: 'drybjed'
 
   synopsis: |
-    `debops.sshkeys` role can be used to manage users SSH keys in
-    `/etc/ssh/authorized_keys/` directory. This role is required for SFTPonly
-    accounts created by `debops.sftpusers` role to disallow access to
-    `~/.ssh/authorized_keys` for users themselves.
+    ``debops.sshkeys`` role can be used to manage users SSH keys in
+    ``/etc/ssh/authorized_keys/`` directory. This role is required for SFTPonly
+    accounts created by ``debops.sftpusers`` role to disallow access to
+    ``~/.ssh/authorized_keys`` for users themselves.
 
