@@ -17,7 +17,7 @@
   authorized_key:
     key: '{{ item.sshkeys | unique | join("\n") | string }}'
     manage_dir: False
-    key_options: '{{ item.options | default("") }}'
+    key_options: '{{ item.options | default(omit) }}'
     path: '{{ sshkeys_path }}/{{ item.name }}'
     user: '{{ item.name }}'
     state: '{{ item.state | default("present") }}'
