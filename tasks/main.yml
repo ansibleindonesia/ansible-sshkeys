@@ -22,9 +22,9 @@
     user: '{{ item.name }}'
     state: '{{ item.state | default("present") }}'
   with_flattened:
-    - sshkeys_list
-    - sshkeys_group_list
-    - sshkeys_host_list
+    - '{{ sshkeys_list }}'
+    - '{{ sshkeys_group_list }}'
+    - '{{ sshkeys_host_list }}'
   when: (item is defined and item) and
         (item.sshkeys is defined and item.sshkeys) and
         (item.name is defined and item.name) and
