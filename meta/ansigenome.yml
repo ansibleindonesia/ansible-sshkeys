@@ -5,6 +5,9 @@ ansigenome_info:
   git_branch: "master"
   galaxy_id: "1603"
 
+  status:
+    name: 'deprecated'
+    note: 'It has been superseded by [debops.authorized_keys](https://github.com/debops/ansible-authorized_keys).'
   travis: True
 
   license_url: 'https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)'
